@@ -1,0 +1,58 @@
+{
+  "name": "Tran Phu Khang",
+  "role": "Backend / ABAP Developer",
+  "location": "Thu Duc, Ho Chi Minh City",
+  "email": "trangkhang0990@gmail.com",
+  "phone": "0907.713.959",
+  "github": "https://github.com/TranPhuKhag",
+  "about": "I'm a backend engineer who enjoys building reliable services with Spring Boot, designing REST APIs, and deploying with Docker. I learn fast, love shipping, and I'm ready for real-world projects.",
+  "education": {
+    "school": "FPT University (HCM Campus)",
+    "degree": "Bachelor of Software Engineering",
+    "gpa": "3.0/4.0",
+    "expected": "Apr 2026"
+  },
+  "experience": [
+    {
+      "company": "FPT Software HCM",
+      "role": "SAP Intern (ABAP)",
+      "period": "Nov 2024 \u2013 Mar 2025",
+      "summary": "Learned ABAP basics; explored SAP modules (SD, MM, PP)."
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Java (4 projects)",
+      "C (1 semester)",
+      "C# (1 semester)"
+    ],
+    "databases": [
+      "SQL Server",
+      "MySQL",
+      "MongoDB"
+    ],
+    "platforms": [
+      "Docker",
+      "Azure"
+    ],
+    "tools": [
+      "GitHub",
+      "Redis",
+      "Kafka",
+      "ELK Stack",
+      "JUnit",
+      "Katalon",
+      "Maven"
+    ],
+    "web": [
+      "HTML/CSS",
+      "JSP/Servlet",
+      "Spring Boot"
+    ]
+  },
+  "social": {
+    "linkedin": "",
+    "x": "",
+    "website": ""
+  }
+}

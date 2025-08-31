@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "metro-ticket-system",
+    "title": "Metro Ticket System",
+    "period": "Jun 2025 \u2013 Aug 2025 (present)",
+    "summary": "Microservices-based ticketing for HCMC: purchase, dynamic pricing, QR validation, dashboard.",
+    "stack": [
+      "Spring Boot",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "Spring Cloud",
+      "Feign Client",
+      "Docker"
+    ],
+    "links": {
+      "github": "https://github.com/TranPhuKhag/Metro-Backend",
+      "live": "https://metro.anhtudev.works/"
+    },
+    "collaborators": [
+      "Anh Tu Dev"
+    ],
+    "highlights": [
+      "Designed REST APIs for orders, payments, pricing, and user management",
+      "Microservices with API Gateway; event-driven flows via Kafka",
+      "QR-based ticket validation and admin dashboard"
+    ]
+  },
+  {
+    "slug": "koi-veterinary-service-center",
+    "title": "Koi Veterinary Service Center",
+    "period": "Sep 2024 \u2013 Nov 2024",
+    "summary": "End-to-end system for Koi-fish healthcare: booking, diagnosis, treatment, schedule management.",
+    "stack": [
+      "Spring Boot",
+      "MySQL",
+      "JWT",
+      "Spring Security",
+      "JPA"
+    ],
+    "links": {
+      "github": "https://github.com/TranPhuKhag/Koi-Veterinary-Service-Center",
+      "live": "https://koimed.anhtudev.works/"
+    },
+    "collaborators": [
+      "Anh Tu Dev"
+    ],
+    "highlights": [
+      "Implemented appointment scheduling and doctors' scheduling",
+      "Customer and staff flows; online & in-person services",
+      "Modular architecture, clean domain layers"
+    ]
+  },
+  {
+    "slug": "mymatch-backend",
+    "title": "MyMatch Backend",
+    "period": "2025",
+    "summary": "Backend services for student matching with OAuth and WebSocket updates.",
+    "stack": [
+      "Spring Boot",
+      "PostgreSQL",
+      "WebSocket",
+      "OAuth2"
+    ],
+    "links": {
+      "github": "https://github.com/TranPhuKhag/MyMatch-Backend"
+    },
+    "collaborators": [
+      "Anh Tu Dev"
+    ],
+    "highlights": [
+      "Domain-driven structure",
+      "Scalable service boundaries"
+    ]
+  }
+]

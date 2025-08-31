@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+:root { --radius: 14px; }
+html, body { height: 100%; }
+body { @apply bg-awBg text-white antialiased; }
+
+/* Typography */
+.h1-aw { @apply font-display tracking-tight text-[12vw] leading-none md:text-[9rem]; }
+.h2-aw { @apply font-display tracking-tight text-5xl md:text-6xl; }
+.kicker { @apply uppercase tracking-widest text-sm text-awGold/80; }
+
+/* Colors & tokens */
+.container-narrow { @apply max-w-6xl mx-auto px-6; }
+.card { @apply bg-awPaper/70 backdrop-blur border border-white/10 rounded-[var(--radius)] shadow-sm; }
+
+/* Buttons */
+.btn { @apply inline-flex items-center gap-2 rounded-full px-5 py-2 text-sm transition; }
+.btn-primary { @apply bg-awGold text-black hover:bg-awGoldSoft; }
+.btn-outline { @apply border border-awGold text-awGold hover:bg-awGold hover:text-black; }
+
+/* Awwwards-like details */
+.text-gold { @apply text-awGold; }
+.text-muted { @apply text-awMuted; }
+.rule { @apply h-[2px] w-24 bg-awGold/70 inline-block align-middle; }
+
+/* Outline title (stroke) */
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(183,155,108,0.8);
+  text-stroke: 1px rgba(183,155,108,0.8);
+}
+
+/* Cursor follower (subtle) */
+.cursor-dot, .cursor-dot-outline {
+  position: fixed; pointer-events: none; z-index: 50; transform: translate(-50%, -50%);
+}
+.cursor-dot { width: 6px; height: 6px; border-radius: 9999px; background: #b79b6c; }
+.cursor-dot-outline { width: 30px; height: 30px; border: 1px solid rgba(183,155,108,0.35); border-radius: 9999px; }
+@media (pointer: coarse) { .cursor-dot, .cursor-dot-outline { display:none; } }
+
+/* Sections */
+.section { @apply py-28; }
+.section-title { @apply font-display text-4xl md:text-5xl text-awGold; }
+
+/* Roundel */
+.roundel { @apply text-awGold; }
