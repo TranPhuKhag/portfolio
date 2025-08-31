@@ -1,4 +1,4 @@
-# Tran Phu Khang — Portfolio (Next.js + Tailwind + Framer Motion)
+# Tran Phu Khang — Portfolio
 
 ## 🗂 Structure
 ```
