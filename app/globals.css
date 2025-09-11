@@ -5,7 +5,7 @@
 /* Base */
 :root { --radius: 14px; }
 html, body { height: 100%; }
-body { @apply bg-awBg text-white antialiased; }
+body { @apply bg-awBg text-white text-awGold antialiased; }
 
 /* Typography */
 .h1-aw { @apply font-display tracking-tight text-[12vw] leading-none md:text-[9rem]; }

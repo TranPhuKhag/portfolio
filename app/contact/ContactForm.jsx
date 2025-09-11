@@ -21,9 +21,9 @@ export default function ContactForm() {
   };
   return (
     <form onSubmit={submit} className="mt-6 grid gap-3 max-w-lg">
-      <input name="name" required placeholder="Your name" className="border border-white/10 bg-black/30 text-white rounded-full px-4 py-2" />
-      <input name="email" required type="email" placeholder="Your email" className="border border-white/10 bg-black/30 text-white rounded-full px-4 py-2" />
-      <textarea name="message" rows={5} required placeholder="Your message" className="border border-white/10 bg-black/30 text-white rounded-2xl px-4 py-2" />
+      <input name="name" required placeholder="Your name" className="border border-white/10 bg-black/30  text-awGold rounded-full px-4 py-2" />
+      <input name="email" required type="email" placeholder="Your email" className="border border-white/10 bg-black/30  text-awGold rounded-full px-4 py-2" />
+      <textarea name="message" rows={5} required placeholder="Your message" className="border border-white/10 bg-black/30  text-awGold rounded-2xl px-4 py-2" />
       <button className="btn btn-primary w-fit" disabled={status==='loading'}>
         {status==='loading' ? 'Sending...' : 'Send'}
       </button>
